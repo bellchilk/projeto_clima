@@ -11,6 +11,8 @@ O **Climatempo** é um sistema de previsão do tempo para a cidade de Dourados �
 
 A aplicação exibe informações meteorológicas atualizadas de forma clara e organizada, permitindo ao usuário acompanhar as condições climáticas diárias e semanais.
 
+<img width="1898" height="870" alt="image" src="https://github.com/user-attachments/assets/2556d26c-0b24-4f74-9f78-39306f3f294a" />
+
 ---
 
 ## Funcionalidades
