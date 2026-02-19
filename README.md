@@ -45,3 +45,14 @@ cd projeto_clima
 - Clique com o botão direito no arquivo index.html
 - Selecione Open with Live Server
 - O projeto será aberto automaticamente no navegador.
+
+---
+
+## Tecnologias Utilizadas
+
+- API de dados meteorológicos: Open-Meteo
+- Bootstrap Icons
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+  
