@@ -55,8 +55,9 @@ async function fetchData() {
 
     const uvIndex = Math.round(data.hourly.uv_index[0]);
     document.querySelector("#uvIndex").textContent = uvIndex;
+
     const chanceOfRain = Math.round(data.hourly.precipitation_probability[0]);
-    document.querySelector("#chanceOfRain").textContent = `${chanceOfRain}%`;
+    document.querySelector(".chance-of-rain-air-cond").textContent = `${chanceOfRain}%`;
 
     const chanceOfRainElement = Math.round(
       data.hourly.precipitation_probability[0],
