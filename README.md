@@ -1,4 +1,4 @@
-# 🌤️ Climatempo
+# Climatempo
 
 Projeto inicial de estágio  
 Desenvolvido por **Izabella Miranda Silva**
