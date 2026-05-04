@@ -1,60 +1,66 @@
 # Climatempo
 
-Projeto inicial de estágio  
-Desenvolvido por **Izabella Miranda Silva**
+A weather forecast web app for Dourados, MS — built to practice REST API
+consumption and dynamic DOM manipulation.
+
+![App screenshot](https://github.com/user-attachments/assets/2556d26c-0b24-4f74-9f78-39306f3f294a)
 
 ---
 
-##  Sobre o Projeto
+## Overview
 
-O **Climatempo** é um sistema de previsão do tempo para a cidade de Dourados – MS, desenvolvido com foco na prática de consumo de APIs e manipulação dinâmica de dados no front-end.
+Fetches real-time meteorological data from the Open-Meteo API and renders it
+in a clean, organized interface. The user can track current conditions as well
+as hourly and weekly forecasts without any backend or API key required.
 
-A aplicação exibe informações meteorológicas atualizadas de forma clara e organizada, permitindo ao usuário acompanhar as condições climáticas diárias e semanais.
+**Data displayed:**
 
-<img width="1898" height="870" alt="image" src="https://github.com/user-attachments/assets/2556d26c-0b24-4f74-9f78-39306f3f294a" />
-
----
-
-## Funcionalidades
-
--  Temperatura atual
--  Temperatura por hora
--  Temperatura máxima e mínima da semana
--  Sensação térmica
--  Probabilidade de chuva
--  Velocidade do vento
--  Índice UV
+| Metric | Detail |
+|---|---|
+| Current temperature | Live reading |
+| Hourly forecast | Temperature curve throughout the day |
+| Weekly min/max | 7-day temperature range |
+| Feels like | Apparent temperature |
+| Rain probability | Precipitation chance (%) |
+| Wind speed | km/h |
+| UV index | Daily peak value |
 
 ---
 
-## Como Executar o Projeto
+## Tech Stack
 
-1. Clone o repositório:
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+- HTML5, CSS3, JavaScript (ES6+)
+- [Open-Meteo API](https://open-meteo.com/) — free, no API key required
+- Bootstrap Icons
+
+---
+
+## Getting Started
+
+**Prerequisites:** [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+extension for VS Code
 
 ```bash
+# Clone the repository
 git clone https://github.com/bellchilk/projeto_clima.git
-```
-
-2. Acesse a pasta do projeto
-   
-```bash
 cd projeto_clima
 ```
 
-3. Execute com Live Server
-
-- Abra o projeto no VS Code
-- Clique com o botão direito no arquivo index.html
-- Selecione Open with Live Server
-- O projeto será aberto automaticamente no navegador.
+Then open `index.html` with Live Server (`Right click → Open with Live Server`).
 
 ---
 
-## Tecnologias Utilizadas
+## Key Concepts Practiced
 
-- API de dados meteorológicos: Open-Meteo
-- Bootstrap Icons
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-  
+- Consuming a public REST API with `fetch` and `async/await`
+- Parsing and transforming JSON response data
+- Dynamic DOM manipulation based on API responses
+- Responsive layout with CSS
+
+---
+
+*Internship starter project — Dourados, MS*
